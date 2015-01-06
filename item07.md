@@ -1,0 +1,76 @@
+重载的底线
+====
+
+
+不能重载的操作符：
+
+|`.`|`.*`|`::`|`?:`|
+|:--:|:--:|:--:|:--:|
+|`new`|`delete`|`sizeof`|`typeid`|
+|`static_cast`|`dynamic_cast`|`const_cast`|`reinterpret_cast`|
+
+可以重载的操作符：
+
+<table>
+        <tr>
+            <th colspan="4">operator new</th>
+            <th colspan="5">operator new[]</th>
+        </tr>
+        <tr>
+            <td colspan="4">operator delete</td>
+            <td colspan="5">operator delete[]</td>
+        </tr>
+        <tr>
+            <td>+</td>
+            <td>-</td>
+            <td>*</td>
+            <td>/</td>
+            <td>%</td>
+            <td>^</td>
+            <td>&</td>
+            <td>|</td>
+            <td>~</td>
+        </tr>
+        <tr>
+            <td>!</td>
+            <td>=</td>
+            <td><</td>
+            <td>></td>
+            <td>+=</td>
+            <td>-=</td>
+            <td>*=</td>
+            <td>/=</td>
+            <td>%=</td>
+        </tr>
+        <tr>
+            <td>^=</td>
+            <td>&=</td>
+            <td>|=</td>
+            <td><<</td>
+            <td>>></td>
+            <td>>>=</td>
+            <td><<=</td>
+            <td>==</td>
+            <td>!=</td>
+        </tr>
+        <tr>
+            <td><=</td>
+            <td>>=</td>
+            <td>&&</td>
+            <td>||</td>
+            <td>++</td>
+            <td>--</td>
+            <td>,</td>
+            <td>->*</td>
+            <td>-></td>
+        </tr>
+        <tr>
+            <td>()</td>
+            <td>[]</td>
+        </tr>
+</table>
+
+切记：
+
+- 不要重载`&&`、`||`、`,`，C++规范尚未明确定义函数调用中各参数的评估顺序，所以会产生无法预期的行为。
+- 函数调用语义和骤死式语义有重大区别，当函数调用动作被执行，所有参数值都必须评估完成。
