@@ -13,60 +13,60 @@
 
 <table>
         <tr>
-            <th colspan="4">operator new</th>
-            <th colspan="5">operator new[]</th>
+            <th colspan="4">`operator new`</th>
+            <th colspan="5">`operator new[]`</th>
         </tr>
         <tr>
-            <td colspan="4">operator delete</td>
-            <td colspan="5">operator delete[]</td>
+            <td colspan="4">`operator delete`</td>
+            <td colspan="5">`operator delete[]`</td>
         </tr>
         <tr>
-            <td>+</td>
-            <td>-</td>
-            <td>*</td>
-            <td>/</td>
-            <td>%</td>
-            <td>^</td>
-            <td>&</td>
-            <td>|</td>
-            <td>~</td>
+            <td>`+`</td>
+            <td>`-`</td>
+            <td>`*`</td>
+            <td>`/`</td>
+            <td>`%`</td>
+            <td>`^`</td>
+            <td>`&`</td>
+            <td>`|`</td>
+            <td>`~`</td>
         </tr>
         <tr>
-            <td>!</td>
-            <td>=</td>
-            <td><</td>
-            <td>></td>
-            <td>+=</td>
-            <td>-=</td>
-            <td>*=</td>
-            <td>/=</td>
-            <td>%=</td>
+            <td>`!`</td>
+            <td>`=`</td>
+            <td>`<`</td>
+            <td>`>`</td>
+            <td>`+=`</td>
+            <td>`-=`</td>
+            <td>`*=`</td>
+            <td>`/=`</td>
+            <td>`%=`</td>
         </tr>
         <tr>
-            <td>^=</td>
-            <td>&=</td>
-            <td>|=</td>
-            <td><<</td>
-            <td>>></td>
-            <td>>>=</td>
-            <td><<=</td>
-            <td>==</td>
-            <td>!=</td>
+            <td>`^=`</td>
+            <td>`&=`</td>
+            <td>`|=`</td>
+            <td>`<<`</td>
+            <td>`>>`</td>
+            <td>`>>=`</td>
+            <td>`<<=`</td>
+            <td>`==`</td>
+            <td>`!=`</td>
         </tr>
         <tr>
-            <td><=</td>
-            <td>>=</td>
-            <td>&&</td>
-            <td>||</td>
-            <td>++</td>
-            <td>--</td>
-            <td>,</td>
-            <td>->*</td>
-            <td>-></td>
+            <td>`<=`</td>
+            <td>`>=`</td>
+            <td>`&&`</td>
+            <td>`||`</td>
+            <td>`++`</td>
+            <td>`--`</td>
+            <td>`,`</td>
+            <td>`->*`</td>
+            <td>`->`</td>
         </tr>
         <tr>
-            <td>()</td>
-            <td>[]</td>
+            <td>`()`</td>
+            <td>`[]`</td>
         </tr>
 </table>
 
